@@ -15,6 +15,10 @@ document.getElementById("inputName").addEventListener('keypress',function(){
     }
 
 });
+document.getElementById("submit").addEventListener('click',function(){
+    weather(Countryname.value);
+    Countryname.value="";
+});
 let day="";
 async function weather(name) {  
     const monthList = ["January","February","March","April","May","June","July","August","September","October","November","December"];
