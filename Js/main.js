@@ -18,7 +18,7 @@ document.getElementById("inputName").addEventListener('keypress',function(){
 let day="";
 async function weather(name) {  
     const monthList = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=7155d2a381a746fbb8a134635241801&q=${name}&days=3`);
+    const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=7155d2a381a746fbb8a134635241801&q=${name}&days=3`);
     let forecasts=[{}];
     if(response.ok==true && response.status==200){
         let final = await response.json();
