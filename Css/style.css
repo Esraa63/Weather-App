@@ -1,0 +1,52 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+nav ul li {
+    padding-inline: 20px;
+  
+}
+nav ul li a{
+    color: #fff !important;
+}
+nav ul li .active{
+    color: #5987bc !important;
+}
+#home {
+    background-image: url("../Images/clouds-2329680_1280.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgOp{
+    background-color: #1c181818;
+    min-height: 100vh;
+}
+.position{
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    bottom: 4px;
+    padding-inline: 30px;
+}
+.bg-headColor{
+    background-color:  #224d7e ;
+}
+.bg-bodyColor{  
+background-color:  #4679b3 ;
+    }
+ .icon{
+        height: 50px;
+        width: 50px;
+        background-color: #224d7e ;
+        color:  #5987bc;
+        text-align: center;
+      }
+      .icon:hover {
+        color:#224d7e ;
+        background-color:  #fff;
+        border: 2px solid #224d7e ;
+        transition: all 0.5s;
+      } 
