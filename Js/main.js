@@ -32,7 +32,7 @@ async function weather(name) {
             temp:final.current.temp_c,
             statues:final.current.condition.text,
             icon:final.current.condition.icon,
-            day: checkDay(new Date(final.current.last_updated).getDay()),
+            day: checkDay(new Date(final.forecast.forecastday[0].date).getDay()),
             date:new Date(final.current.last_updated).getDate(),
             month:monthList[new Date().getMonth()],
             wind_dir:final.current.wind_dir,
